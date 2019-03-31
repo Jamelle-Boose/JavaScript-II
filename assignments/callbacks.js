@@ -1,3 +1,9 @@
+// [ ] Review the contents of the callbacks.js file. Notice you are given an array at the top of the page. Use that array to aid you with your functions.
+
+// [ ] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
+
+
+
 // Create a higher order function and invoke the callback function to test your work. You have been provided an example of a problem and a solution to see how this works with our items array.  Study both the problem and the solution to figure out the rest of the problems.
 
 const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
