@@ -1,6 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+const newTickets = 'morning'
+function ticketSchedule() {
+  const lateTickets = 'night'
+  return (`We all grab ${newTickets} tickets, but at ${lateTickets} I grab the tickets.`)
+}
+
+console.log(ticketSchedule())
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
