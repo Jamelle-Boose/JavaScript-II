@@ -140,7 +140,7 @@ let silverDonationCount = runners.filter(silver => silver.donation >= 101 && sil
 
 let silverClub= silverDonationCount.length /*?*/
 
-console.log(`We have at ${silverClub} members in the Silver club.`)
+console.log(`We have ${silverClub} members in the Silver club.`)
 
 
 
@@ -149,4 +149,4 @@ let goldDonationCount = runners.filter(gold => gold.donation >= 201)
 
 let goldClub = goldDonationCount.length
 
-console.log(`We have at ${goldClub} members in the Gold club.`)
+console.log(`We have ${goldClub} members in the Gold club.`)
