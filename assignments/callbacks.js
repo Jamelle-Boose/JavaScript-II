@@ -109,22 +109,17 @@ multiplyNums(2, 2, (multiply) => {console.log(2 * 2)})
 
 
 
-var fruits = ["Banana", "Orange", "Apple", "Mango"]
-
-var n = fruits.includes("Apple")
-
-n
-
-
-
-const dlastItem = items/*?*/
-const lastItem = items[items.length-1]/*?*/
+// var fruits = ["Banana", "Orange", "Apple", "Mango"]
+// var n = fruits.includes("Apple")
+// n
+// const dlastItem = items/*?*/
+// const lastItem = items[items.length-1]/*?*/
 
 
 
+// contains checks if an item is present inside of the given array/list.
+// Pass true to the callback if it is, otherwise pass false.
 function contains(item, list, cb) {
-  // contains checks if an item is present inside of the given array/list.
-  // Pass true to the callback if it is, otherwise pass false.
   return cb(list.includes(item))
 }
 
